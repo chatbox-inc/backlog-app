@@ -1,0 +1,3 @@
+[submodule "modules/larabel-webhook"]
+	path = modules/larabel-webhook
+	url = https://github.com/chatbox-inc/laravel-webhook

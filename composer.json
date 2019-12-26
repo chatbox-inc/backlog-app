@@ -7,9 +7,27 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./modules/backlog-php"
+        },
+        {
+            "type": "path",
+            "url": "./modules/backlog-app"
+        },
+        {
+            "type": "path",
+            "url": "./modules/backlog-auth"
+        }
+    ],
     "require": {
         "php": "^7.2",
+        "chatbox-inc/backlog-app": "dev-master",
+        "chatbox-inc/backlog-auth": "dev-master",
+        "chatbox-inc/backlog-php": "dev-master",
         "fideloper/proxy": "^4.0",
+        "guzzlehttp/guzzle": "^6.5",
         "laravel/framework": "^6.2",
         "laravel/tinker": "^2.0"
     },
